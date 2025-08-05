@@ -1,0 +1,11 @@
+.activity-section {
+    position: relative;
+    text-align: center;
+    margin-bottom: 96px;
+
+  &__list {
+      display: flex;
+      gap: 56px;
+      justify-content: center;
+  }
+}

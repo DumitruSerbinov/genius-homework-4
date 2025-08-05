@@ -1,0 +1,15 @@
+.activity-card {
+    padding: 24px 32px;
+    background-color: var(--color-primary-white);
+    border-radius: 32px;
+    box-shadow: 0px 4px 4px 0px rgba(168, 198, 245, 0.38);
+    max-width: 316px;
+
+    &__icon {
+        fill: var(--color-primary-lighr);
+    }
+
+    &__text {
+        line-height: 1.5;
+    }
+}

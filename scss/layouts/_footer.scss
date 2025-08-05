@@ -1,0 +1,83 @@
+.footer {
+    padding: 56px 100px;
+    position: relative;
+    background-color: var(--color-primary-dark);
+    background-image: url('../images/footer-background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+  &::after {
+      position: absolute;
+      width: 247px;
+      height: 152px;
+      right: 0;
+      bottom: 0;
+      background-repeat: no-repeat;
+      background-image: url('../images/pexels.png');
+      content: '';
+  }
+
+  &__container {
+      display: flex;
+      gap: 20px;
+      line-height: 2;
+  }
+
+  &__nav,
+  &__address {
+      font-style: normal;
+      display: flex;
+      flex-basis: 50%;
+      gap: 20px;
+  }
+
+  &__logo,
+  &__menu {
+      flex-grow: 1;
+      font-size: 16px;
+  }
+
+  &__address-list,
+  &__address-info {
+      flex-grow: 1;
+  
+    &:hover {
+        color: var(--color-primary-lighr);
+    }
+  }
+
+  &__icons {
+      display: flex;
+      gap: 24px;
+      position: absolute;
+      bottom: 4px;
+  }
+
+  &__address-icon {
+      fill: var(--color-primary-white);
+  
+
+    &:hover {
+        fill: var(--color-primary-lighr);
+    }
+  }
+
+  &__address-link {
+      color: var(--color-primary-white);
+      font-size: 16px;
+  
+    &:hover {
+        color: var(--color-primary-lighr);
+    }
+  }
+
+  &__address-link--accent {
+      line-height: 1.2;
+  }
+
+  &__address-copyright {
+      color: var(--color-secondary-gr);
+      font-size: 13px;
+  }
+}

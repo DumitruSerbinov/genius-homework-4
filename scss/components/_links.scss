@@ -1,0 +1,20 @@
+.link-header {
+    color: var(--color-primary-dark);
+    text-decoration: none;
+    transition: color 0.3s;
+
+  &:hover {
+      color: var(--color-primary-lighr);
+      font-weight: 700;
+  }
+}
+
+.link-footer {
+    color: var(--color-primary-white);
+    text-decoration: none;
+
+  &:hover {
+      color: var(--color-primary-lighr);
+      font-weight: 400;
+  }
+}
